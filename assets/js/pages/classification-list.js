@@ -1,5 +1,5 @@
-if (document.getElementById('products-list')) {
-    const dataTableSearch = new simpleDatatables.DataTable("#products-list", {
+if (document.getElementById('categories-list')) {
+    const dataTableSearch = new simpleDatatables.DataTable("#categories-list", {
         searchable: true,
         fixedHeight: false,
         perPage: 7
