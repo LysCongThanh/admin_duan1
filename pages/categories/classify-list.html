@@ -410,6 +410,45 @@
 
             <!-- Modal target group -->
             <div class="modal-group">
+                <!-- Form add category -->
+                <div class="modal fade" id="form-modal-add-category" tabindex="-1" role="dialog"
+                    aria-labelledby="form-modal-add-category" aria-hidden="true">
+                    <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                        <div class="modal-content">
+                            <!-- Form here -->
+                            <form action="form.html" method="post" id="form-add-category">
+                                <div class="modal-header">
+                                    <h6 class="modal-title" id="form-modal-add-category-title">
+                                        Danh mục sách</h6>
+                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Tên danh mục</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="fa-solid fa-table"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="category_name"
+                                                placeholder="Nhập tên danh mục">
+                                        </div>
+                                        <div class="form-message"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-dark">Thêm danh
+                                        mục</button>
+                                    <button type="button" class="btn btn-link text-dark ml-auto"
+                                        data-bs-dismiss="modal">Đóng</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- form add author -->
                 <div class="modal fade" id="form-modal-add-author" tabindex="-1" role="dialog"
                     aria-labelledby="form-modal-add-author" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
@@ -417,7 +456,7 @@
                             <form action="form.html" method="post" id="form-add-author">
                                 <div class="modal-header">
                                     <h6 class="modal-title" id="form-modal-add-author-title">
-                                        Danh mục sách</h6>
+                                        Tác giả</h6>
                                     <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                                         aria-label="Close">
                                         <span aria-hidden="true">×</span>
@@ -430,8 +469,80 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-table"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="category_name"
-                                                placeholder="Nhập tên danh mục">
+                                            <input type="text" class="form-control" name="author_name"
+                                                placeholder="Nhập tên tác giả">
+                                        </div>
+                                        <div class="form-message"></div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Tiểu sử tác giả</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="fa-solid fa-image-portrait"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="author_bio"
+                                                placeholder="Nhập tên tiểu sử">
+                                        </div>
+                                        <div class="form-message"></div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-dark">Thêm danh
+                                        mục</button>
+                                    <button type="button" class="btn btn-link text-dark ml-auto"
+                                        data-bs-dismiss="modal">Đóng</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- Form add publisher -->
+                <div class="modal fade" id="form-modal-add-publisher" tabindex="-1" role="dialog"
+                    aria-labelledby="form-modal-add-author" aria-hidden="true">
+                    <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
+                        <div class="modal-content">
+                            <form action="form.html" method="post" id="form-add-publisher">
+                                <div class="modal-header">
+                                    <h6 class="modal-title" id="form-modal-add-author-title">
+                                        Danh mục sách</h6>
+                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                        aria-label="Close">
+                                        <span aria-hidden="true">×</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Tên nhà xuất bản</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="fa-solid fa-table"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="publisher_name"
+                                                placeholder="Nhập tên nhà xuất bản">
+                                        </div>
+                                        <div class="form-message"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Địa chỉ nhà xuất bản</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="fa-solid fa-table"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="publisher_address"
+                                                placeholder="Nhập địa chỉ nhà xuất bản">
+                                        </div>
+                                        <div class="form-message"></div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="" class="form-label">Thông tin nhà xuất bản</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="fa-solid fa-table"></i>
+                                            </span>
+                                            <input type="text" class="form-control" name="publisher_contact"
+                                                placeholder="Nhập thông tin nhà xuất bản">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -479,10 +590,10 @@
                                 </div>
                                 <div class="my-auto mt-4 ms-auto mt-lg-0">
                                     <div class="my-auto ms-auto">
-                                        <a href="../new-product.html" class="me-2 mb-0 btn btn-dark" target="_blank">
-                                            <i class="fas fa-plus me-1"></i>
-                                            Thêm danh mục
-                                        </a>
+                                        <button type="button" class="btn-input-group btn btn-block btn-dark m-0"
+                                            data-bs-toggle="modal" data-bs-target="#form-modal-add-category">+
+                                            Thêm
+                                            danh mục</button>
                                         <button type="button" class="me-2 mb-0 btn btn-white" data-bs-toggle="modal"
                                             data-bs-target="#import">
                                             <svg width="14" height="15" viewBox="0 0 20 21" fill="none"
@@ -735,17 +846,17 @@
                         <div class="pb-0 card-header">
                             <div class="d-lg-flex">
                                 <div>
-                                    <h5 class="mb-0">Danh sách tác giả</h5>
+                                    <h5 class="mb-0">Danh sách nhà xuất bản</h5>
                                     <p class="mb-0 text-sm">
-                                        Liệt kê tác giả của sách...
+                                        Liệt kê các nhà xuất bản...
                                     </p>
                                 </div>
                                 <div class="my-auto mt-4 ms-auto mt-lg-0">
                                     <div class="my-auto ms-auto">
-                                        <a href="../new-product.html" class="me-2 mb-0 btn btn-dark" target="_blank">
-                                            <i class="fas fa-plus me-1"></i>
-                                            Thêm tác giả
-                                        </a>
+                                        <button type="button" class="btn-input-group btn btn-block btn-dark m-0"
+                                            data-bs-toggle="modal" data-bs-target="#form-modal-add-publisher">+
+                                            Thêm
+                                            nhà xuất bản</button>
                                         <button type="button" class="me-2 mb-0 btn btn-white" data-bs-toggle="modal"
                                             data-bs-target="#import">
                                             <svg width="14" height="15" viewBox="0 0 20 21" fill="none"
