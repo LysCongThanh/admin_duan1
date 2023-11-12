@@ -114,3 +114,12 @@ select:hover {
 .is-shadow {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.input-group {
+    width: 100%;
+}
+
+.choices {
+    margin: 0;
+    border-radius: 0 !important;
+}

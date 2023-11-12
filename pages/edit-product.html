@@ -10,7 +10,9 @@
         Corporate UI by Creative Tim
     </title>
     <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Noto+Sans:300,400,500,600,700,800|PT+Mono:300,400,500,600,700"
+        rel="stylesheet" />
     <!-- Nucleo Icons -->
     <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />
     <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
@@ -18,7 +20,7 @@
     <script src="https://kit.fontawesome.com/349ee9c857.js" crossorigin="anonymous"></script>
     <link href="../assets/css/nucleo-svg.css" rel="stylesheet" />
     <!-- CSS Files -->
-    <link rel="stylesheet" href="../assets//css//style.css">
+    <link rel="stylesheet" href="../assets/css/corporate-ui-dashboard.min.css">
     <link id="pagestyle" href="../assets/css/corporate-ui-dashboard.css?v=1.0.0" rel="stylesheet" />
     <!-- Dropzone -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
@@ -31,14 +33,14 @@
         }
     </style>
     <script>
-        (function(a, s, y, n, c, h, i, d, e) {
+        (function (a, s, y, n, c, h, i, d, e) {
             s.className += ' ' + y;
             h.start = 1 * new Date;
-            h.end = i = function() {
+            h.end = i = function () {
                 s.className = s.className.replace(RegExp(' ?' + y), '')
             };
             (a[n] = a[n] || []).hide = h;
-            setTimeout(function() {
+            setTimeout(function () {
                 i();
                 h.end = null
             }, c);
@@ -49,9 +51,9 @@
     </script>
 
     <script>
-        (function(i, s, o, g, r, a, m) {
+        (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function() {
+            i[r] = i[r] || function () {
                 (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
             a = s.createElement(o),
@@ -71,7 +73,7 @@
     </script>
 
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -89,14 +91,17 @@
 
 </head>
 
-<body class="g-sidenav-show   bg-gray-100">
+<body class="g-sidenav-show bg-gray-100">
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
 
     <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 bg-slate-900 fixed-start " id="sidenav-main">
         <div class="sidenav-header">
-            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
-            <a class="navbar-brand d-flex align-items-center m-0" href=" https://demos.creative-tim.com/corporate-ui-dashboard/pages/dashboard.html " target="_blank">
+            <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none"
+                aria-hidden="true" id="iconSidenav"></i>
+            <a class="navbar-brand d-flex align-items-center m-0"
+                href=" https://demos.creative-tim.com/corporate-ui-dashboard/pages/dashboard.html " target="_blank">
                 <span class="font-weight-bold text-lg">Corporate UI</span>
             </a>
         </div>
@@ -104,14 +109,23 @@
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link  active" href=".../pages/dashboard.html">
-                        <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
-                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>dashboard</title>
                                 <g id="dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="template" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                                        <path class="color-foreground" d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 L24,5.14285714 C24,6.08962286 23.2325143,6.85714286 22.2857143,6.85714286 L1.71428571,6.85714286 C0.76752,6.85714286 0,6.08962286 0,5.14285714 L0,1.71428571 Z" id="Path"></path>
-                                        <path class="color-background" d="M0,12 C0,11.0532171 0.76752,10.2857143 1.71428571,10.2857143 L12,10.2857143 C12.9468,10.2857143 13.7142857,11.0532171 13.7142857,12 L13.7142857,22.2857143 C13.7142857,23.2325143 12.9468,24 12,24 L1.71428571,24 C0.76752,24 0,23.2325143 0,22.2857143 L0,12 Z" id="Path"></path>
-                                        <path class="color-background" d="M18.8571429,10.2857143 C17.9103429,10.2857143 17.1428571,11.0532171 17.1428571,12 L17.1428571,22.2857143 C17.1428571,23.2325143 17.9103429,24 18.8571429,24 L22.2857143,24 C23.2325143,24 24,23.2325143 24,22.2857143 L24,12 C24,11.0532171 23.2325143,10.2857143 22.2857143,10.2857143 L18.8571429,10.2857143 Z" id="Path"></path>
+                                    <g id="template" transform="translate(12.000000, 12.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
+                                        <path class="color-foreground"
+                                            d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 L24,5.14285714 C24,6.08962286 23.2325143,6.85714286 22.2857143,6.85714286 L1.71428571,6.85714286 C0.76752,6.85714286 0,6.08962286 0,5.14285714 L0,1.71428571 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M0,12 C0,11.0532171 0.76752,10.2857143 1.71428571,10.2857143 L12,10.2857143 C12.9468,10.2857143 13.7142857,11.0532171 13.7142857,12 L13.7142857,22.2857143 C13.7142857,23.2325143 12.9468,24 12,24 L1.71428571,24 C0.76752,24 0,23.2325143 0,22.2857143 L0,12 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M18.8571429,10.2857143 C17.9103429,10.2857143 17.1428571,11.0532171 17.1428571,12 L17.1428571,22.2857143 C17.1428571,23.2325143 17.9103429,24 18.8571429,24 L22.2857143,24 C23.2325143,24 24,23.2325143 24,22.2857143 L24,12 C24,11.0532171 23.2325143,10.2857143 22.2857143,10.2857143 L18.8571429,10.2857143 Z"
+                                            id="Path"></path>
                                     </g>
                                 </g>
                             </svg>
@@ -121,15 +135,26 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  " data-bs-toggle="collapse" aria-expanded="false" href="#vrExamples">
-                        <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
-                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>table</title>
                                 <g id="table" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                    <g id="view-grid" transform="translate(12.000000, 12.000000)" fill="#FFFFFF" fill-rule="nonzero">
-                                        <path class="color-foreground" d="M3.42857143,0 C1.53502286,0 0,1.53502286 0,3.42857143 L0,6.85714286 C0,8.75069143 1.53502286,10.2857143 3.42857143,10.2857143 L6.85714286,10.2857143 C8.75069143,10.2857143 10.2857143,8.75069143 10.2857143,6.85714286 L10.2857143,3.42857143 C10.2857143,1.53502286 8.75069143,0 6.85714286,0 L3.42857143,0 Z" id="Path"></path>
-                                        <path class="color-background" d="M3.42857143,13.7142857 C1.53502286,13.7142857 0,15.2492571 0,17.1428571 L0,20.5714286 C0,22.4650286 1.53502286,24 3.42857143,24 L6.85714286,24 C8.75069143,24 10.2857143,22.4650286 10.2857143,20.5714286 L10.2857143,17.1428571 C10.2857143,15.2492571 8.75069143,13.7142857 6.85714286,13.7142857 L3.42857143,13.7142857 Z" id="Path"></path>
-                                        <path class="color-background" d="M13.7142857,3.42857143 C13.7142857,1.53502286 15.2492571,0 17.1428571,0 L20.5714286,0 C22.4650286,0 24,1.53502286 24,3.42857143 L24,6.85714286 C24,8.75069143 22.4650286,10.2857143 20.5714286,10.2857143 L17.1428571,10.2857143 C15.2492571,10.2857143 13.7142857,8.75069143 13.7142857,6.85714286 L13.7142857,3.42857143 Z" id="Path"></path>
-                                        <path class="color-foreground" d="M13.7142857,17.1428571 C13.7142857,15.2492571 15.2492571,13.7142857 17.1428571,13.7142857 L20.5714286,13.7142857 C22.4650286,13.7142857 24,15.2492571 24,17.1428571 L24,20.5714286 C24,22.4650286 22.4650286,24 20.5714286,24 L17.1428571,24 C15.2492571,24 13.7142857,22.4650286 13.7142857,20.5714286 L13.7142857,17.1428571 Z" id="Path"></path>
+                                    <g id="view-grid" transform="translate(12.000000, 12.000000)" fill="#FFFFFF"
+                                        fill-rule="nonzero">
+                                        <path class="color-foreground"
+                                            d="M3.42857143,0 C1.53502286,0 0,1.53502286 0,3.42857143 L0,6.85714286 C0,8.75069143 1.53502286,10.2857143 3.42857143,10.2857143 L6.85714286,10.2857143 C8.75069143,10.2857143 10.2857143,8.75069143 10.2857143,6.85714286 L10.2857143,3.42857143 C10.2857143,1.53502286 8.75069143,0 6.85714286,0 L3.42857143,0 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M3.42857143,13.7142857 C1.53502286,13.7142857 0,15.2492571 0,17.1428571 L0,20.5714286 C0,22.4650286 1.53502286,24 3.42857143,24 L6.85714286,24 C8.75069143,24 10.2857143,22.4650286 10.2857143,20.5714286 L10.2857143,17.1428571 C10.2857143,15.2492571 8.75069143,13.7142857 6.85714286,13.7142857 L3.42857143,13.7142857 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M13.7142857,3.42857143 C13.7142857,1.53502286 15.2492571,0 17.1428571,0 L20.5714286,0 C22.4650286,0 24,1.53502286 24,3.42857143 L24,6.85714286 C24,8.75069143 22.4650286,10.2857143 20.5714286,10.2857143 L17.1428571,10.2857143 C15.2492571,10.2857143 13.7142857,8.75069143 13.7142857,6.85714286 L13.7142857,3.42857143 Z"
+                                            id="Path"></path>
+                                        <path class="color-foreground"
+                                            d="M13.7142857,17.1428571 C13.7142857,15.2492571 15.2492571,13.7142857 17.1428571,13.7142857 L20.5714286,13.7142857 C22.4650286,13.7142857 24,15.2492571 24,17.1428571 L24,20.5714286 C24,22.4650286 22.4650286,24 20.5714286,24 L17.1428571,24 C15.2492571,24 13.7142857,22.4650286 13.7142857,20.5714286 L13.7142857,17.1428571 Z"
+                                            id="Path"></path>
                                     </g>
                                 </g>
                             </svg>
@@ -158,13 +183,19 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  " href=".../pages/wallet.html">
-                        <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
-                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>wallet</title>
                                 <g id="wallet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="credit-card" transform="translate(12.000000, 15.000000)" fill="#FFFFFF">
-                                        <path class="color-background" d="M3,0 C1.343145,0 0,1.343145 0,3 L0,4.5 L24,4.5 L24,3 C24,1.343145 22.6569,0 21,0 L3,0 Z" id="Path" fill-rule="nonzero"></path>
-                                        <path class="color-foreground" d="M24,7.5 L0,7.5 L0,15 C0,16.6569 1.343145,18 3,18 L21,18 C22.6569,18 24,16.6569 24,15 L24,7.5 Z M3,13.5 C3,12.67155 3.67158,12 4.5,12 L6,12 C6.82842,12 7.5,12.67155 7.5,13.5 C7.5,14.32845 6.82842,15 6,15 L4.5,15 C3.67158,15 3,14.32845 3,13.5 Z M10.5,12 C9.67158,12 9,12.67155 9,13.5 C9,14.32845 9.67158,15 10.5,15 L12,15 C12.82845,15 13.5,14.32845 13.5,13.5 C13.5,12.67155 12.82845,12 12,12 L10.5,12 Z" id="Shape"></path>
+                                        <path class="color-background"
+                                            d="M3,0 C1.343145,0 0,1.343145 0,3 L0,4.5 L24,4.5 L24,3 C24,1.343145 22.6569,0 21,0 L3,0 Z"
+                                            id="Path" fill-rule="nonzero"></path>
+                                        <path class="color-foreground"
+                                            d="M24,7.5 L0,7.5 L0,15 C0,16.6569 1.343145,18 3,18 L21,18 C22.6569,18 24,16.6569 24,15 L24,7.5 Z M3,13.5 C3,12.67155 3.67158,12 4.5,12 L6,12 C6.82842,12 7.5,12.67155 7.5,13.5 C7.5,14.32845 6.82842,15 6,15 L4.5,15 C3.67158,15 3,14.32845 3,13.5 Z M10.5,12 C9.67158,12 9,12.67155 9,13.5 C9,14.32845 9.67158,15 10.5,15 L12,15 C12.82845,15 13.5,14.32845 13.5,13.5 C13.5,12.67155 12.82845,12 12,12 L10.5,12 Z"
+                                            id="Shape"></path>
                                     </g>
                                 </g>
                             </svg>
@@ -174,14 +205,22 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link  " href=".../pages/rtl.html">
-                        <div class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
-                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <div
+                            class="icon icon-shape icon-sm px-0 text-center d-flex align-items-center justify-content-center">
+                            <svg width="30px" height="30px" viewBox="0 0 48 48" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <title>rtl</title>
                                 <g id="rtl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                     <g id="menu-alt-3" transform="translate(12.000000, 14.000000)" fill="#FFFFFF">
-                                        <path class="color-foreground" d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 C24,2.66105143 23.2325143,3.42857143 22.2857143,3.42857143 L1.71428571,3.42857143 C0.76752,3.42857143 0,2.66105143 0,1.71428571 Z" id="Path"></path>
-                                        <path class="color-background" d="M0,10.2857143 C0,9.33894857 0.76752,8.57142857 1.71428571,8.57142857 L22.2857143,8.57142857 C23.2325143,8.57142857 24,9.33894857 24,10.2857143 C24,11.2325143 23.2325143,12 22.2857143,12 L1.71428571,12 C0.76752,12 0,11.2325143 0,10.2857143 Z" id="Path"></path>
-                                        <path class="color-background" d="M10.2857143,18.8571429 C10.2857143,17.9103429 11.0532343,17.1428571 12,17.1428571 L22.2857143,17.1428571 C23.2325143,17.1428571 24,17.9103429 24,18.8571429 C24,19.8039429 23.2325143,20.5714286 22.2857143,20.5714286 L12,20.5714286 C11.0532343,20.5714286 10.2857143,19.8039429 10.2857143,18.8571429 Z" id="Path"></path>
+                                        <path class="color-foreground"
+                                            d="M0,1.71428571 C0,0.76752 0.76752,0 1.71428571,0 L22.2857143,0 C23.2325143,0 24,0.76752 24,1.71428571 C24,2.66105143 23.2325143,3.42857143 22.2857143,3.42857143 L1.71428571,3.42857143 C0.76752,3.42857143 0,2.66105143 0,1.71428571 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M0,10.2857143 C0,9.33894857 0.76752,8.57142857 1.71428571,8.57142857 L22.2857143,8.57142857 C23.2325143,8.57142857 24,9.33894857 24,10.2857143 C24,11.2325143 23.2325143,12 22.2857143,12 L1.71428571,12 C0.76752,12 0,11.2325143 0,10.2857143 Z"
+                                            id="Path"></path>
+                                        <path class="color-background"
+                                            d="M10.2857143,18.8571429 C10.2857143,17.9103429 11.0532343,17.1428571 12,17.1428571 L22.2857143,17.1428571 C23.2325143,17.1428571 24,17.9103429 24,18.8571429 C24,19.8039429 23.2325143,20.5714286 22.2857143,20.5714286 L12,20.5714286 C11.0532343,20.5714286 10.2857143,19.8039429 10.2857143,18.8571429 Z"
+                                            id="Path"></path>
                                     </g>
                                 </g>
                             </svg>
@@ -191,8 +230,11 @@
                 </li>
                 <li class="nav-item mt-2">
                     <div class="d-flex align-items-center nav-link">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
-                            <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="ms-2" viewBox="0 0 24 24"
+                            fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd"
+                                d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z"
+                                clip-rule="evenodd" />
                         </svg>
                         <span class="font-weight-normal text-md ms-2">Account Pages</span>
                     </div>
@@ -217,11 +259,13 @@
     </aside>
     <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
 
-        <nav class=" navbar-on-header  px-0 mx-5 rounded shadow-none z-index-2 navbar navbar-main navbar-expand-lg" navbar-scroll="true" id="navbarBlur">
+        <nav class=" navbar-on-header  px-0 mx-5 rounded shadow-none z-index-2 navbar navbar-main navbar-expand-lg"
+            navbar-scroll="true" id="navbarBlur">
             <div class="container px-2 py-1 min-w-100">
                 <nav aria-label="breadcrumb">
                     <ol class="px-0 pt-1 pb-0 mb-1 bg-transparent breadcrumb me-sm-6 me-5">
-                        <li class="text-sm breadcrumb-item"><a class="opacity-5 p-0 breadcrumb-text  text-white " href="javascript:;">Dashboard</a></li>
+                        <li class="text-sm breadcrumb-item"><a class="opacity-5 p-0 breadcrumb-text  text-white "
+                                href="javascript:;">Dashboard</a></li>
                         <li class="text-sm breadcrumb-item  breadcrumb-text  text-white  active" aria-current="page">
                             Edit Product</li>
                     </ol>
@@ -231,8 +275,10 @@
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
                         <div class="input-group">
                             <span class="input-group-text text-body bg-white  border-end-0 ">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill="none"
+                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
                             </span>
                             <input type="text" class="form-control ps-0" placeholder="Search">
@@ -250,23 +296,33 @@
                         </li>
                         <li class="px-3 nav-item d-flex align-items-center">
                             <a href="javascript:;" class="p-0 nav-link  text-white ">
-                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" class="cursor-pointer fixed-plugin-button-nav" viewBox="0 0 24 24" fill="currentColor">
-                                    <path fill-rule="evenodd" d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 00-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 00-2.282.819l-.922 1.597a1.875 1.875 0 00.432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 000 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 00-.432 2.385l.922 1.597a1.875 1.875 0 002.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 002.28-.819l.923-1.597a1.875 1.875 0 00-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 000-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 00-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 00-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 00-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z" clip-rule="evenodd" />
+                                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"
+                                    class="cursor-pointer fixed-plugin-button-nav" viewBox="0 0 24 24"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 00-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 00-2.282.819l-.922 1.597a1.875 1.875 0 00.432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 000 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 00-.432 2.385l.922 1.597a1.875 1.875 0 002.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 002.28-.819l.923-1.597a1.875 1.875 0 00-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 000-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 00-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 00-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 00-1.85-1.567h-1.843zM12 15.75a3.75 3.75 0 100-7.5 3.75 3.75 0 000 7.5z"
+                                        clip-rule="evenodd" />
                                 </svg>
                             </a>
                         </li>
                         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-                            <a href="javascript:;" class="p-0 nav-link  text-white " id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-                                <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="cursor-pointers">
-                                    <path fill-rule="evenodd" d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z" clip-rule="evenodd" />
+                            <a href="javascript:;" class="p-0 nav-link  text-white " id="dropdownMenuButton"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                    fill="currentColor" class="cursor-pointers">
+                                    <path fill-rule="evenodd"
+                                        d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
+                                        clip-rule="evenodd" />
                                 </svg>
                             </a>
-                            <ul class="px-2 py-3 dropdown-menu dropdown-menu-end me-sm-n4" aria-labelledby="dropdownMenuButton">
+                            <ul class="px-2 py-3 dropdown-menu dropdown-menu-end me-sm-n4"
+                                aria-labelledby="dropdownMenuButton">
                                 <li class="mb-2">
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="py-1 d-flex">
                                             <div class="my-auto">
-                                                <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 " alt="user image">
+                                                <img src="../assets/img/team-2.jpg" class="avatar avatar-sm  me-3 "
+                                                    alt="user image">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="mb-1 text-sm font-weight-normal">
@@ -284,7 +340,8 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="py-1 d-flex">
                                             <div class="my-auto">
-                                                <img src="../assets/img/small-logos/logo-spotify.svg" class="avatar avatar-sm bg-gradient-dark  me-3 " alt="logo spotify">
+                                                <img src="../assets/img/small-logos/logo-spotify.svg"
+                                                    class="avatar avatar-sm bg-gradient-dark  me-3 " alt="logo spotify">
                                             </div>
                                             <div class="d-flex flex-column justify-content-center">
                                                 <h6 class="mb-1 text-sm font-weight-normal">
@@ -302,14 +359,20 @@
                                     <a class="dropdown-item border-radius-md" href="javascript:;">
                                         <div class="py-1 d-flex">
                                             <div class="avatar avatar-sm bg-gradient-secondary  me-3  my-auto">
-                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <svg width="12px" height="12px" viewBox="0 0 43 36" version="1.1"
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>credit-card</title>
                                                     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                        <g transform="translate(-2169.000000, -745.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                                                        <g transform="translate(-2169.000000, -745.000000)"
+                                                            fill="#FFFFFF" fill-rule="nonzero">
                                                             <g transform="translate(1716.000000, 291.000000)">
                                                                 <g transform="translate(453.000000, 454.000000)">
-                                                                    <path class="color-background" d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z" opacity="0.593633743"></path>
-                                                                    <path class="color-background" d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
+                                                                    <path class="color-background"
+                                                                        d="M43,10.7482083 L43,3.58333333 C43,1.60354167 41.3964583,0 39.4166667,0 L3.58333333,0 C1.60354167,0 0,1.60354167 0,3.58333333 L0,10.7482083 L43,10.7482083 Z"
+                                                                        opacity="0.593633743"></path>
+                                                                    <path class="color-background"
+                                                                        d="M0,16.125 L0,32.25 C0,34.2297917 1.60354167,35.8333333 3.58333333,35.8333333 L39.4166667,35.8333333 C41.3964583,35.8333333 43,34.2297917 43,32.25 L43,16.125 L0,16.125 Z M19.7083333,26.875 L7.16666667,26.875 L7.16666667,23.2916667 L19.7083333,23.2916667 L19.7083333,26.875 Z M35.8333333,26.875 L28.6666667,26.875 L28.6666667,23.2916667 L35.8333333,23.2916667 L35.8333333,26.875 Z">
                                                                     </path>
                                                                 </g>
                                                             </g>
@@ -332,7 +395,8 @@
                             </ul>
                         </li>
                         <li class="nav-item d-flex align-items-center ps-2">
-                            <a href="../pages/authentication/signin/illustration.html" class="nav-link  text-white  font-weight-bold px-0" target="_blank">
+                            <a href="../pages/authentication/signin/illustration.html"
+                                class="nav-link  text-white  font-weight-bold px-0" target="_blank">
                         <li class="nav-item dropdown d-flex align-items-center">
                             <div class="avatar avatar-sm position-relative">
                                 <img src="../assets/img/team-1.jpg" alt="profile_image" class="w-100 border-radius-md">
@@ -345,18 +409,21 @@
             </div>
         </nav>
 
-        <div class="top-0 bg-cover z-index-n1 min-height-100 max-height-200 h-25 position-absolute w-100 start-0 end-0" style="background-image: url('../assets/img/header-blue-purple.jpg'); background-position: bottom;">
+        <div class="top-0 bg-cover z-index-n1 min-height-100 max-height-200 h-25 position-absolute w-100 start-0 end-0"
+            style="background-image: url('../assets/img/header-blue-purple.jpg'); background-position: bottom;">
         </div>
         <div class="px-5 py-4 container-fluid">
             <div class="modal-group">
-                <div class="modal fade" id="form-modal-category__input" tabindex="-1" role="dialog" aria-labelledby="form-modal-category__input" aria-hidden="true">
+                <div class="modal fade" id="form-modal-category__input" tabindex="-1" role="dialog"
+                    aria-labelledby="form-modal-category__input" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                         <div class="modal-content">
                             <form action="form.html" method="post" id="form-add-category">
                                 <div class="modal-header">
                                     <h6 class="modal-title" id="form-modal-category__input-title">
                                         Danh mục sách</h6>
-                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">×</span>
                                     </button>
                                 </div>
@@ -367,7 +434,8 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-table"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="category_name" placeholder="Nhập tên danh mục">
+                                            <input type="text" class="form-control" name="category_name"
+                                                placeholder="Nhập tên danh mục">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -375,21 +443,24 @@
                                 <div class="modal-footer">
                                     <button type="submit" class="btn btn-dark">Thêm danh
                                         mục</button>
-                                    <button type="button" class="btn btn-link text-dark ml-auto" data-bs-dismiss="modal">Đóng</button>
+                                    <button type="button" class="btn btn-link text-dark ml-auto"
+                                        data-bs-dismiss="modal">Đóng</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
 
-                <div class="modal fade" id="form-modal-author__input" tabindex="-1" role="dialog" aria-labelledby="form-modal-author__input" aria-hidden="true">
+                <div class="modal fade" id="form-modal-author__input" tabindex="-1" role="dialog"
+                    aria-labelledby="form-modal-author__input" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                         <div class="modal-content">
                             <form action="form.html" method="post" id="form-add-author">
                                 <div class="modal-header">
                                     <h6 class="modal-title" id="form-modal-author__input-title">
                                         Tác giả</h6>
-                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">×</span>
                                     </button>
                                 </div>
@@ -400,7 +471,8 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-pen"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="author_name" placeholder="Nhập tên tác giả">
+                                            <input type="text" class="form-control" name="author_name"
+                                                placeholder="Nhập tên tác giả">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -411,7 +483,8 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-image-portrait"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="author_bio" placeholder="Nhập tên danh mục">
+                                            <input type="text" class="form-control" name="author_bio"
+                                                placeholder="Nhập tên danh mục">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -419,21 +492,24 @@
                                 <div class="modal-footer">
                                     <button type="submit" class="btn btn-dark">Thêm danh
                                         mục</button>
-                                    <button type="button" class="btn btn-link text-dark ml-auto" data-bs-dismiss="modal">Đóng</button>
+                                    <button type="button" class="btn btn-link text-dark ml-auto"
+                                        data-bs-dismiss="modal">Đóng</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
 
-                <div class="modal fade" id="form-modal-publisher__input" tabindex="-1" role="dialog" aria-labelledby="form-modal-publisher__input" aria-hidden="true">
+                <div class="modal fade" id="form-modal-publisher__input" tabindex="-1" role="dialog"
+                    aria-labelledby="form-modal-publisher__input" aria-hidden="true">
                     <div class="modal-dialog modal- modal-dialog-centered modal-" role="document">
                         <div class="modal-content">
                             <form action="#" method="post" id="form-add-publisher">
                                 <div class="modal-header">
                                     <h6 class="modal-title" id="form-modal-publisher__input-title">
                                         Nhà xuất bản</h6>
-                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">×</span>
                                     </button>
                                 </div>
@@ -444,7 +520,8 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-table"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="publisher_name" placeholder="Nhập tên nhà xuất bản">
+                                            <input type="text" class="form-control" name="publisher_name"
+                                                placeholder="Nhập tên nhà xuất bản">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -455,7 +532,8 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-table"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="publisher_address" placeholder="Nhập địa chỉ nhà xuất bản">
+                                            <input type="text" class="form-control" name="publisher_address"
+                                                placeholder="Nhập địa chỉ nhà xuất bản">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
@@ -466,14 +544,16 @@
                                             <span class="input-group-text">
                                                 <i class="fa-solid fa-table"></i>
                                             </span>
-                                            <input type="text" class="form-control" name="publisher_contact" placeholder="Nhập thông tin nhà xuất bản">
+                                            <input type="text" class="form-control" name="publisher_contact"
+                                                placeholder="Nhập thông tin nhà xuất bản">
                                         </div>
                                         <div class="form-message"></div>
                                     </div>
                                 </div>
                                 <div class="modal-footer">
                                     <button type="submit" class="btn btn-dark">Thêm nhà xuất bản</button>
-                                    <button type="button" class="btn btn-link text-dark ml-auto" data-bs-dismiss="modal">Đóng</button>
+                                    <button type="button" class="btn btn-link text-dark ml-auto"
+                                        data-bs-dismiss="modal">Đóng</button>
                                 </div>
                             </form>
                         </div>
@@ -493,9 +573,14 @@
                     </div>
                     <div class="text-right col-lg-6 d-flex flex-column justify-content-center">
                         <button type="submit" class="mt-2 mb-0 btn btn-dark ms-lg-auto me-lg-0 me-auto mt-lg-0">
-                            <svg class="me-1" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5.39341 7.20504C5.12004 6.93167 4.67683 6.93167 4.40346 7.20504C4.1301 7.47839 4.1301 7.92163 4.40346 8.19498L6.50346 10.295C6.77683 10.5683 7.22006 10.5683 7.49341 10.295L9.59341 8.19498C9.86676 7.92163 9.86676 7.47839 9.59341 7.20504C9.32006 6.93167 8.87682 6.93167 8.60347 7.20504L7.69844 8.11007V4.20001H11.1984C11.9717 4.20001 12.5984 4.82681 12.5984 5.60001V10.5C12.5984 11.2732 11.9717 11.9 11.1984 11.9H2.79844C2.02524 11.9 1.39844 11.2732 1.39844 10.5V5.60001C1.39844 4.82681 2.02524 4.20001 2.79844 4.20001H6.29844V8.11007L5.39341 7.20504Z" fill="#F9FAFB" />
-                                <path d="M6.30078 2.79998C6.30078 2.41338 6.61419 2.09998 7.00078 2.09998C7.38739 2.09998 7.70078 2.41338 7.70078 2.79998V4.19998H6.30078V2.79998Z" fill="#F9FAFB" />
+                            <svg class="me-1" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.39341 7.20504C5.12004 6.93167 4.67683 6.93167 4.40346 7.20504C4.1301 7.47839 4.1301 7.92163 4.40346 8.19498L6.50346 10.295C6.77683 10.5683 7.22006 10.5683 7.49341 10.295L9.59341 8.19498C9.86676 7.92163 9.86676 7.47839 9.59341 7.20504C9.32006 6.93167 8.87682 6.93167 8.60347 7.20504L7.69844 8.11007V4.20001H11.1984C11.9717 4.20001 12.5984 4.82681 12.5984 5.60001V10.5C12.5984 11.2732 11.9717 11.9 11.1984 11.9H2.79844C2.02524 11.9 1.39844 11.2732 1.39844 10.5V5.60001C1.39844 4.82681 2.02524 4.20001 2.79844 4.20001H6.29844V8.11007L5.39341 7.20504Z"
+                                    fill="#F9FAFB" />
+                                <path
+                                    d="M6.30078 2.79998C6.30078 2.41338 6.61419 2.09998 7.00078 2.09998C7.38739 2.09998 7.70078 2.41338 7.70078 2.79998V4.19998H6.30078V2.79998Z"
+                                    fill="#F9FAFB" />
                             </svg>
                             Save
                         </button>
@@ -521,7 +606,8 @@
                                             <label class="form-label">Tên sách</label>
                                             <div class="input-group">
                                                 <span class="input-group-text"><i class="fa-solid fa-book"></i></span>
-                                                <input type="text" name="name" class="form-control" placeholder="Nhập tên sách...">
+                                                <input type="text" name="name" class="form-control"
+                                                    placeholder="Nhập tên sách...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -530,8 +616,10 @@
                                         <div class="form-group">
                                             <label for="" class="form-label">Số lượng</label>
                                             <div class="input-group">
-                                                <span class="input-group-text"><i class="fa-solid fa-hashtag"></i></span>
-                                                <input type="number" min="1" class="form-control" name="quantity" id="" placeholder="Số lượng sách...">
+                                                <span class="input-group-text"><i
+                                                        class="fa-solid fa-hashtag"></i></span>
+                                                <input type="number" min="1" class="form-control" name="quantity" id=""
+                                                    placeholder="Số lượng sách...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -546,7 +634,8 @@
                                             <label for="" class="form-label">Số trang</label>
                                             <div class="input-group">
                                                 <span class="input-group-text"><i class="fa-regular fa-file"></i></span>
-                                                <input type="number" min="1" class="form-control" name="number_pages" id="" placeholder="Số trang sách...">
+                                                <input type="number" min="1" class="form-control" name="number_pages"
+                                                    id="" placeholder="Số trang sách...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -556,7 +645,8 @@
                                             <label for="" class="form-label">Kích thước</label>
                                             <div class="input-group">
                                                 <span class="input-group-text"><i class="fa-solid fa-expand"></i></span>
-                                                <input type="text" min="1" class="form-control" name="size" id="" placeholder="Kích thước sách...">
+                                                <input type="text" min="1" class="form-control" name="size" id=""
+                                                    placeholder="Kích thước sách...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -571,7 +661,8 @@
                                             </p>
                                             <div id="sort-editor" class="sort-editor"></div>
                                             <div class="input-group">
-                                                <input type="hidden" name="sort-editor" class="form-control" id="sort_description">
+                                                <input type="hidden" name="sort-editor" class="form-control"
+                                                    id="sort_description">
                                             </div>
                                         </div>
                                     </div>
@@ -583,7 +674,8 @@
                                             </p>
                                             <div id="long-editor" class="long-editor"></div>
                                             <div class="input-group">
-                                                <input type="hidden" name="long-editor" class="form-control" id="long_description">
+                                                <input type="hidden" name="long-editor" class="form-control"
+                                                    id="long_description">
                                             </div>
                                         </div>
                                     </div>
@@ -625,7 +717,10 @@
                                                     <option value="book2">Sách 2</option>
                                                 </select>
                                                 <div class="input-group-text m-0 p-0">
-                                                    <button type="button" class="btn-input-group btn btn-block btn-dark m-0" data-bs-toggle="modal" data-bs-target="#form-modal-category__input">+
+                                                    <button type="button"
+                                                        class="btn-input-group btn btn-block btn-dark m-0"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#form-modal-category__input">+
                                                         Thêm
                                                         danh mục</button>
                                                 </div>
@@ -637,7 +732,8 @@
                                         <div class="form-group">
                                             <label class="form-label">Tác giả</label>
                                             <div class="input-group">
-                                                <span class="input-group-text"><i class="fa-solid fa-feather"></i></span>
+                                                <span class="input-group-text"><i
+                                                        class="fa-solid fa-feather"></i></span>
                                                 <select class="form-select" name="author" id="author">
                                                     <option value="" disabled selected>Chọn tác giả
                                                     </option>
@@ -645,7 +741,10 @@
                                                     <option value="book2">Sách 2</option>
                                                 </select>
                                                 <div class="input-group-text m-0 p-0">
-                                                    <button type="button" class="btn-input-group btn btn-block btn-dark m-0" data-bs-toggle="modal" data-bs-target="#form-modal-author__input">+
+                                                    <button type="button"
+                                                        class="btn-input-group btn btn-block btn-dark m-0"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#form-modal-author__input">+
                                                         Thêm
                                                         tác giả</button>
                                                 </div>
@@ -666,7 +765,10 @@
                                                     <option value="book2">Sách 2</option>
                                                 </select>
                                                 <div class="input-group-text m-0 p-0">
-                                                    <button type="button" class="btn-input-group btn btn-block btn-dark m-0" data-bs-toggle="modal" data-bs-target="#form-modal-publisher__input">+
+                                                    <button type="button"
+                                                        class="btn-input-group btn btn-block btn-dark m-0"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#form-modal-publisher__input">+
                                                         Thêm
                                                         nhà xuất bản</button>
                                                 </div>
@@ -678,7 +780,8 @@
                                         <div class="form-group">
                                             <label class="form-label">Ngày xuất bản</label>
                                             <div class="input-group">
-                                                <span class="input-group-text"><i class="fa-solid fa-calendar-days"></i></span>
+                                                <span class="input-group-text"><i
+                                                        class="fa-solid fa-calendar-days"></i></span>
                                                 <input type="date" name="date_publication" class="form-control">
                                             </div>
                                             <div class="form-message"></div>
@@ -707,15 +810,23 @@
                                     </div>
                                     <div class="col-lg-6 text-end">
                                         <button class="mb-0 btn btn-white me-2 btn-sm" type="button" name="button">
-                                            <svg width="14" height="15" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2.5C8.62123 2.5 8.27497 2.714 8.10557 3.05279L7.38197 4.5H4C3.44772 4.5 3 4.94772 3 5.5C3 6.05228 3.44772 6.5 4 6.5V16.5C4 17.6046 4.89543 18.5 6 18.5H14C15.1046 18.5 16 17.6046 16 16.5V6.5C16.5523 6.5 17 6.05228 17 5.5C17 4.94772 16.5523 4.5 16 4.5H12.618L11.8944 3.05279C11.725 2.714 11.3788 2.5 11 2.5H9ZM7 8.5C7 7.94772 7.44772 7.5 8 7.5C8.55228 7.5 9 7.94772 9 8.5V14.5C9 15.0523 8.55228 15.5 8 15.5C7.44772 15.5 7 15.0523 7 14.5V8.5ZM12 7.5C11.4477 7.5 11 7.94772 11 8.5V14.5C11 15.0523 11.4477 15.5 12 15.5C12.5523 15.5 13 15.0523 13 14.5V8.5C13 7.94772 12.5523 7.5 12 7.5Z" fill="#111827" />
+                                            <svg width="14" height="15" viewBox="0 0 20 21" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M9 2.5C8.62123 2.5 8.27497 2.714 8.10557 3.05279L7.38197 4.5H4C3.44772 4.5 3 4.94772 3 5.5C3 6.05228 3.44772 6.5 4 6.5V16.5C4 17.6046 4.89543 18.5 6 18.5H14C15.1046 18.5 16 17.6046 16 16.5V6.5C16.5523 6.5 17 6.05228 17 5.5C17 4.94772 16.5523 4.5 16 4.5H12.618L11.8944 3.05279C11.725 2.714 11.3788 2.5 11 2.5H9ZM7 8.5C7 7.94772 7.44772 7.5 8 7.5C8.55228 7.5 9 7.94772 9 8.5V14.5C9 15.0523 8.55228 15.5 8 15.5C7.44772 15.5 7 15.0523 7 14.5V8.5ZM12 7.5C11.4477 7.5 11 7.94772 11 8.5V14.5C11 15.0523 11.4477 15.5 12 15.5C12.5523 15.5 13 15.0523 13 14.5V8.5C13 7.94772 12.5523 7.5 12 7.5Z"
+                                                    fill="#111827" />
                                             </svg>
                                             Remove
                                         </button>
                                         <button class="mb-0 btn btn-dark btn-sm" type="button" name="button">
-                                            <svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9.50816 3.01006C10.0549 2.46332 10.9413 2.46332 11.488 3.01006C12.0348 3.55679 12.0348 4.44322 11.488 4.98995L10.933 5.54498L8.95312 3.56508L9.50816 3.01006Z" fill="#F9FAFB" />
-                                                <path d="M7.96665 4.55502L2.10156 10.4201V12.4H4.08146L9.94653 6.53492L7.96665 4.55502Z" fill="#F9FAFB" />
+                                            <svg width="14" height="15" viewBox="0 0 14 15" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M9.50816 3.01006C10.0549 2.46332 10.9413 2.46332 11.488 3.01006C12.0348 3.55679 12.0348 4.44322 11.488 4.98995L10.933 5.54498L8.95312 3.56508L9.50816 3.01006Z"
+                                                    fill="#F9FAFB" />
+                                                <path
+                                                    d="M7.96665 4.55502L2.10156 10.4201V12.4H4.08146L9.94653 6.53492L7.96665 4.55502Z"
+                                                    fill="#F9FAFB" />
                                             </svg>
                                             Edit
                                         </button>
@@ -723,32 +834,50 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <img class="mt-3 shadow-lg w-100 border-radius-lg" src="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg" alt="product_image">
+                                        <img class="mt-3 shadow-lg w-100 border-radius-lg"
+                                            src="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg" alt="product_image">
                                     </div>
                                     <div class="mt-4 col-12">
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="pt-2 mt-4 my-gallery d-flex justify-content-between align-items-center" itemscope itemtype="http://schema.org/ImageGallery">
-                                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                                <a href="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg" itemprop="contentUrl" data-size="600x600">
-                                                    <img class="shadow max-height-100 border-radius-lg" src="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg" alt="Image description" />
+                                        <div class="pt-2 mt-4 my-gallery d-flex justify-content-between align-items-center"
+                                            itemscope itemtype="http://schema.org/ImageGallery">
+                                            <figure itemprop="associatedMedia" itemscope
+                                                itemtype="http://schema.org/ImageObject">
+                                                <a href="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg"
+                                                    itemprop="contentUrl" data-size="600x600">
+                                                    <img class="shadow max-height-100 border-radius-lg"
+                                                        src="../assets/img/spacejoy-c0JoR_-2x3E-unsplash.jpg"
+                                                        alt="Image description" />
                                                 </a>
                                             </figure>
-                                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                                <a href="../assets/img/spacejoy-Kh4tedFdHz4-unsplash.jpg" itemprop="contentUrl" data-size="600x600">
-                                                    <img class="shadow max-height-100 border-radius-lg" src="../assets/img/spacejoy-Kh4tedFdHz4-unsplash.jpg" itemprop="thumbnail" alt="Image description" />
+                                            <figure itemprop="associatedMedia" itemscope
+                                                itemtype="http://schema.org/ImageObject">
+                                                <a href="../assets/img/spacejoy-Kh4tedFdHz4-unsplash.jpg"
+                                                    itemprop="contentUrl" data-size="600x600">
+                                                    <img class="shadow max-height-100 border-radius-lg"
+                                                        src="../assets/img/spacejoy-Kh4tedFdHz4-unsplash.jpg"
+                                                        itemprop="thumbnail" alt="Image description" />
                                                 </a>
                                             </figure>
-                                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                                <a href="../assets/img/michael-oxendine-GHCVUtBECuY-unsplash.jpg" itemprop="contentUrl" data-size="600x600">
-                                                    <img class="shadow max-height-100 border-radius-lg" src="../assets/img/michael-oxendine-GHCVUtBECuY-unsplash.jpg" itemprop="thumbnail" alt="Image description" />
+                                            <figure itemprop="associatedMedia" itemscope
+                                                itemtype="http://schema.org/ImageObject">
+                                                <a href="../assets/img/michael-oxendine-GHCVUtBECuY-unsplash.jpg"
+                                                    itemprop="contentUrl" data-size="600x600">
+                                                    <img class="shadow max-height-100 border-radius-lg"
+                                                        src="../assets/img/michael-oxendine-GHCVUtBECuY-unsplash.jpg"
+                                                        itemprop="thumbnail" alt="Image description" />
                                                 </a>
                                             </figure>
-                                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-                                                <a href="../assets/img/spacejoy-NpF_OYE301E-unsplash.jpg" itemprop="contentUrl" data-size="600x600">
-                                                    <img class="shadow max-height-100 border-radius-lg" src="../assets/img/spacejoy-NpF_OYE301E-unsplash.jpg" itemprop="thumbnail" alt="Image description" />
+                                            <figure itemprop="associatedMedia" itemscope
+                                                itemtype="http://schema.org/ImageObject">
+                                                <a href="../assets/img/spacejoy-NpF_OYE301E-unsplash.jpg"
+                                                    itemprop="contentUrl" data-size="600x600">
+                                                    <img class="shadow max-height-100 border-radius-lg"
+                                                        src="../assets/img/spacejoy-NpF_OYE301E-unsplash.jpg"
+                                                        itemprop="thumbnail" alt="Image description" />
                                                 </a>
                                             </figure>
                                         </div>
@@ -780,8 +909,10 @@
                                         <div class="form-group">
                                             <label class="form-label">Giá sách</label>
                                             <div class="input-group">
-                                                <span class="input-group-text"><i class="fa-solid fa-dollar-sign"></i></span>
-                                                <input type="text" name="price" class="form-control" placeholder="Nhập giá sách...">
+                                                <span class="input-group-text"><i
+                                                        class="fa-solid fa-dollar-sign"></i></span>
+                                                <input type="text" name="price" class="form-control"
+                                                    placeholder="Nhập giá sách...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -791,7 +922,8 @@
                                             <label class="form-label">Giảm giá</label>
                                             <div class="input-group">
                                                 <span class="input-group-text"><i class="fa-solid fa-tag"></i></span>
-                                                <input type="text" name="sale_price" class="form-control" placeholder="Nhập giảm giá...">
+                                                <input type="text" name="sale_price" class="form-control"
+                                                    placeholder="Nhập giảm giá...">
                                             </div>
                                             <div class="form-message"></div>
                                         </div>
@@ -820,16 +952,20 @@
                     <div class="col-lg-6">
                         <ul class="nav nav-footer justify-content-center justify-content-lg-end">
                             <li class="nav-item">
-                                <a href="https://www.creative-tim.com" class="nav-link text-xs text-muted" target="_blank">Creative Tim</a>
+                                <a href="https://www.creative-tim.com" class="nav-link text-xs text-muted"
+                                    target="_blank">Creative Tim</a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://www.creative-tim.com/presentation" class="nav-link text-xs text-muted" target="_blank">About Us</a>
+                                <a href="https://www.creative-tim.com/presentation" class="nav-link text-xs text-muted"
+                                    target="_blank">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://www.creative-tim.com/blog" class="nav-link text-xs text-muted" target="_blank">Blog</a>
+                                <a href="https://www.creative-tim.com/blog" class="nav-link text-xs text-muted"
+                                    target="_blank">Blog</a>
                             </li>
                             <li class="nav-item">
-                                <a href="https://www.creative-tim.com/license" class="nav-link text-xs pe-0 text-muted" target="_blank">License</a>
+                                <a href="https://www.creative-tim.com/license" class="nav-link text-xs pe-0 text-muted"
+                                    target="_blank">License</a>
                             </li>
                         </ul>
                     </div>
@@ -862,11 +998,16 @@
                 </div>
                 <a href="javascript:void(0)" class="switch-trigger background-color">
                     <div class="badge-colors my-2 text-start">
-                        <span class="badge filter bg-gradient-primary active" data-color="primary" onclick="sidebarColor(this)"></span>
-                        <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
-                        <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
-                        <span class="badge filter bg-gradient-warning" data-color="warning" onclick="sidebarColor(this)"></span>
-                        <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
+                        <span class="badge filter bg-gradient-primary active" data-color="primary"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge filter bg-gradient-info" data-color="info"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge filter bg-gradient-success" data-color="success"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge filter bg-gradient-warning" data-color="warning"
+                            onclick="sidebarColor(this)"></span>
+                        <span class="badge filter bg-gradient-danger" data-color="danger"
+                            onclick="sidebarColor(this)"></span>
                     </div>
                 </a>
 
@@ -875,8 +1016,10 @@
                     <p class="text-sm">Choose between 2 different sidenav types.</p>
                 </div>
                 <div class="d-flex">
-                    <button class="btn bg-gradient-primary w-100 px-3 mb-2 active" data-class="bg-slate-900" onclick="sidebarType(this)">Dark</button>
-                    <button class="btn bg-gradient-primary w-100 px-3 mb-2 ms-2" data-class="bg-white" onclick="sidebarType(this)">White</button>
+                    <button class="btn bg-gradient-primary w-100 px-3 mb-2 active" data-class="bg-slate-900"
+                        onclick="sidebarType(this)">Dark</button>
+                    <button class="btn bg-gradient-primary w-100 px-3 mb-2 ms-2" data-class="bg-white"
+                        onclick="sidebarType(this)">White</button>
                 </div>
                 <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
 
@@ -884,35 +1027,44 @@
                     <h6 class="mb-0">Navbar Fixed</h6>
                 </div>
                 <div class="form-check form-switch ps-0">
-                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
+                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed"
+                        onclick="navbarFixed(this)">
                 </div>
                 <hr class="horizontal dark mb-1 d-xl-block d-none">
                 <div class="mt-2 d-xl-block d-none">
                     <h6 class="mb-0">Sidenav Mini</h6>
                 </div>
                 <div class="form-check form-switch ps-0 d-xl-block d-none">
-                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarMinimize" onclick="navbarMinimize(this)">
+                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarMinimize"
+                        onclick="navbarMinimize(this)">
                 </div>
                 <hr class="horizontal dark mb-1 d-xl-block d-none">
                 <div class="mt-2 d-xl-block d-none">
                     <h6 class="mb-0">Light/Dark</h6>
                 </div>
                 <div class="form-check form-switch ps-0 d-xl-block d-none">
-                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
+                    <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version"
+                        onclick="darkMode(this)">
                 </div>
                 <hr class="horizontal dark my-sm-4">
-                <a class="btn bg-gradient-info w-100" href="https://www.creative-tim.com/product/corporate-ui-dashboard-pro">Buy now</a>
+                <a class="btn bg-gradient-info w-100"
+                    href="https://www.creative-tim.com/product/corporate-ui-dashboard-pro">Buy now</a>
                 <a class="btn btn-dark w-100" href="https://www.creative-tim.com/product/corporate-ui-dashboard">Free
                     demo</a>
-                <a class="btn btn-white w-100" href="https://www.creative-tim.com/learning-lab/bootstrap/overview/corporate-ui-dashboard">View
+                <a class="btn btn-white w-100"
+                    href="https://www.creative-tim.com/learning-lab/bootstrap/overview/corporate-ui-dashboard">View
                     documentation</a>
                 <div class="w-100 text-center">
-                    <a class="github-button" href="https://github.com/creativetimofficial/ct-corporate-ui-dashboard-pro" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star creativetimofficial/corporate-ui-dashboard on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/creativetimofficial/ct-corporate-ui-dashboard-pro"
+                        data-icon="octicon-star" data-size="large" data-show-count="true"
+                        aria-label="Star creativetimofficial/corporate-ui-dashboard on GitHub">Star</a>
                     <h6 class="mt-3">Thank you for sharing!</h6>
-                    <a href="https://twitter.com/intent/tweet?text=Check%20Corporate%20UI%20Dashboard%20PRO%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fcorporate-ui-dashboard-pro" class="btn btn-dark mb-0 me-2" target="_blank">
+                    <a href="https://twitter.com/intent/tweet?text=Check%20Corporate%20UI%20Dashboard%20PRO%20made%20by%20%40CreativeTim%20%23webdesign%20%23dashboard%20%23bootstrap5&amp;url=https%3A%2F%2Fwww.creative-tim.com%2Fproduct%2Fcorporate-ui-dashboard-pro"
+                        class="btn btn-dark mb-0 me-2" target="_blank">
                         <i class="fab fa-twitter me-1" aria-hidden="true"></i> Tweet
                     </a>
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/corporate-ui-dashboard-pro" class="btn btn-dark mb-0 me-2" target="_blank">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/corporate-ui-dashboard-pro"
+                        class="btn btn-dark mb-0 me-2" target="_blank">
                         <i class="fab fa-facebook-square me-1" aria-hidden="true"></i> Share
                     </a>
                 </div>
@@ -942,6 +1094,13 @@
             }
             Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
         }
+
+        if (document.getElementById('category')) {
+            var element = document.getElementById('category');
+            const example = new Choices(element, {
+                searchEnabled: false
+            });
+        };
     </script>
 
     <!-- Github buttons -->
