@@ -259,3 +259,17 @@ Validator.isDiscount = function (selector, getCost, message) {
         }
     }
 }
+
+Validator.isEmail = function (selector, message) {
+    return {
+        selector: selector,
+        test: function (value) {
+
+            let regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+            if(!regex.test(value)) {
+                return message || "* Vui lòng nhập email !";
+            }
+
+        }
+    }
+}
