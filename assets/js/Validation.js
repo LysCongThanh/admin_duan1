@@ -67,6 +67,7 @@ function Validator(options) {
                     var isValid = validate(inputElement, rule);
                     if (!isValid && !errorTab) {
                         hasError = true; // Set the hasError flag
+                        isFormValid = false;
                         // Remove 'active' class from the current active tab link
                         var activeTabLink = formElement.querySelector('.nav-link.active');
                         if (activeTabLink) {
@@ -174,6 +175,7 @@ function Validator(options) {
         });
     }
 
+    //Clear error when closing modal
     const modalElement = document.querySelector(options.modal);
     if (modalElement) {
         modalElement.addEventListener('hidden.bs.modal', () => {

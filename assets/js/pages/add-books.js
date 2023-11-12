@@ -54,6 +54,7 @@ Validator({
             '* Vui lòng nhập ngày xuất bản !')
     ],
     onSubmit: function (data) {
+        console.log(123);
         // Call API
         const sortDescriptionInput = document.getElementById('sort_description');
         const longDescriptionInput = document.getElementById('long_description');
