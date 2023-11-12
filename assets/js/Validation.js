@@ -229,7 +229,7 @@ Validator.isConfirmed = function (selector, getConfirmValue, message) {
 Validator.isNumber = function (selector, message) {
     return {
         selector: selector,
-        test: function (value) {
+        test: function (value) {          
             if (value.length === 0) {
                 return message || 'Không được bỏ trống';
             }
@@ -237,7 +237,7 @@ Validator.isNumber = function (selector, message) {
             if (isNaN(value)) {
                 return message || '* Vui lòng nhập số !';
             }
-        }
+        }   
     }
 }
 
@@ -248,12 +248,11 @@ Validator.isDiscount = function (selector, getCost, message) {
             if (isNaN(value)) {
                 return '* Vui lòng nhập số !';
             }
+
             if (getCost()) {
                 if (value >= getCost()) {
                     return message || '* Giá giảm phải nhỏ hơn giá gốc !';
                 }
-            } else {
-                // return '* Vui lòng nhập giá gốc!';
             }
         }
     }
