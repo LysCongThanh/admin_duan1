@@ -65,7 +65,7 @@ Validator({
         sortDescriptionInput.value = sortDescription;
         longDescriptionInput.value = longDescription;
 
-        // document.querySelector(this.form).submit();
+        document.querySelector(this.form).submit();
     }
 });
 
